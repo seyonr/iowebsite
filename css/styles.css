@@ -32,6 +32,11 @@ header{
 .nav_links li{
     display: inline-block;
     padding: 0px 20px;
+    transition: 0.3s all ease-in-out;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vw;
+    cursor: pointer;
 }
 
 .nav_links li a{
@@ -118,6 +123,8 @@ button:hover{
 
 .h2-red{
     color: red;
+    font-size: 1vw;
+    letter-spacing: 5px;
 }
 
 .menu-box-1{
@@ -129,7 +136,13 @@ button:hover{
 .menu-box-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
 }
+
+.food-info p{
+    font-size: 0.8vw;
+}
+
 
 /* Fillers */
 .fillers-page{
@@ -141,6 +154,8 @@ button:hover{
 
 .fillers-page h2{
     color: red;
+    font-size: 1vw;
+    letter-spacing: 5px;
 }
 
 /* Pasta Page */
@@ -152,6 +167,8 @@ button:hover{
 
 .pasta-page h2{
     color: red;
+    font-size: 1vw;
+    letter-spacing: 5px;
 }
 
 /* Shrimp */
@@ -163,11 +180,24 @@ button:hover{
 
 .shrimp-page h2{
     color: red;
+    font-size: 1vw;
+    letter-spacing: 5px;
 }
+
 
 /* Refershers */
 .refer-page{
     background-color: black;
     color: white;
     padding: 30px 10%;
+}
+
+
+/* Collage Div */
+.collage-div{
+    background-color: black;
+}
+
+.collage-div img{
+    width: 100%;
 }
