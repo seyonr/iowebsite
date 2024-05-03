@@ -6,7 +6,8 @@
     font-family: "Poppins", sans-serif;
     /* background-color: black; */
 }
-
+/* -------------------------------------- */
+/* -------------------------------------- */
 body{
     background-color: black;
 }
@@ -62,7 +63,7 @@ button{
     padding: 9px 25px;
     background-color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s all ease-in-out;
     font-size: 0.9vw;
@@ -71,18 +72,20 @@ button{
 button:hover{
     background-color: #BFBFBF;
 }
-
-
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* Contact Section */
 .contact-section{
-    height: 100%;
+    height: 100vh;
     padding: 30px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-items{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: ;
 }
 
 .contact-info{
@@ -106,12 +109,26 @@ button:hover{
 
 .book-button{
     margin-top: 30px;
-    color: black;
+}
+
+.book-button h2 {
+    margin-top: 30px;
     background-color: white;
-    width: 52%;
+    color: black;
+    display: inline; 
+    padding: 5px 10px; 
 }
 
 
+.hoverable{
+    transition: all 0.2s ease-in-out 0.2s;
+}
+
+.hoverable:hover{
+    color: red;
+}
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* Footer */
 .footer-icon-div{
     background-color: white;
@@ -124,6 +141,7 @@ button:hover{
 
 .footer-icon-div i{
     font-size: 2vw;
+    color: black;
 }
 
 

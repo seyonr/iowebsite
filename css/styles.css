@@ -6,8 +6,8 @@
     font-family: "Poppins", sans-serif;
     /* background-color: black; */
 }
-
-
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* Header */
 .logo{
     width: 10vw;
@@ -59,7 +59,7 @@ button{
     padding: 9px 25px;
     background-color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s all ease-in-out;
     font-size: 0.9vw;
@@ -68,8 +68,8 @@ button{
 button:hover{
     background-color: #BFBFBF;
 }
-
-
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* Homepage */
 .home-page{
     background-color: black;
@@ -79,8 +79,8 @@ button:hover{
 .home-page img {
     width: 100%; 
 }
-
-
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* About */
 .about-section{
     color: white;
@@ -112,8 +112,8 @@ button:hover{
     display: flex;
     justify-content: center;
 }
-
-
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* Warmup Page */
 .warmup-page{
     background-color: black;
@@ -143,7 +143,17 @@ button:hover{
     font-size: 0.8vw;
 }
 
+.price{
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
 
+.price p{
+    font-size: 0.9vw;
+}
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* Fillers */
 .fillers-page{
     color: white;
@@ -184,15 +194,14 @@ button:hover{
     letter-spacing: 5px;
 }
 
-
 /* Refershers */
 .refer-page{
     background-color: black;
     color: white;
     padding: 30px 10%;
 }
-
-
+/* -------------------------------------- */
+/* -------------------------------------- */
 /* Collage Div */
 .collage-div{
     background-color: black;
