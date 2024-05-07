@@ -99,7 +99,7 @@ button:hover{
 }
 
 .about-grid img{
-    width: 40vw;
+    width: 20vw;
 }
 
 .about-grid-p{
@@ -125,6 +125,10 @@ button:hover{
     color: red;
     font-size: 1vw;
     letter-spacing: 5px;
+}
+
+.warmup-page h2{
+    font-size: 1vw;
 }
 
 .menu-box-1{
@@ -209,4 +213,187 @@ button:hover{
 
 .collage-div img{
     width: 100%;
+}
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* Reactive */
+@media screen and (max-width: 1100px){
+    /* Header */
+    .nav_links li{
+        font-size: 1.3vw;
+    }
+
+    .nav_links li a{
+        font-size: 1.3vw;
+    }
+
+    button{
+        font-size: 1.1vw;
+    }
+
+    /* Menu */
+    .price{
+        margin-left: 20px;
+    }
+
+    .warmup-page h2{
+        font-size: 1.3vw;
+    }
+
+    .food-info p{
+        font-size: 1.1vw;
+    }
+
+    .price p{
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (max-width: 780px){
+    /* Header */
+    .logo{
+        width: 13vw;
+    }
+
+    .nav_links li{
+        padding: 0px 10px;
+        font-size: 1.4vw;
+    }
+
+    button{
+        font-size: 1.4vw;
+    }
+
+    /* About */
+    .about-grid img{
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .about-grid-img{
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    /* Menu */
+    .price{
+        margin-left: 50px;
+    }
+
+    .warmup-page h2{
+        font-size: 1.7vw;
+    }
+
+    .fillers-page h2{
+        font-size: 1.9vw;
+    }
+
+    .pasta-page h2{
+        font-size: 1.9vw;
+    }
+
+    .shrimp-page h2{
+        font-size: 1.9vw;
+    }
+
+    .refer-page h2{
+        font-size: 1.9vw;
+    }
+
+    .food-info p{
+        font-size: 1.5vw;
+    }
+
+    .price p{
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (max-width: 650px){
+    /* Header */
+    .logo{
+        width: 22vw;
+    }
+
+    button{
+        font-size: 1.9vw;
+    }
+
+    /* About */
+    .about-grid-p p{
+        font-size: 1.8vw;
+    }
+
+    /* Menu */
+    .menu-box-1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .warmup-page h1{
+        font-size: 4.5vw;
+    }
+
+    .fillers-page h1{
+        font-size: 4.5vw;
+    }
+
+    .pasta-page h1{
+        font-size: 4.5vw;
+    }
+
+    .shrimp-page h1{
+        font-size: 4.5vw;
+    }
+
+    .refer-page h1{
+        font-size: 4.5vw;
+    }
+
+    .food-info h3{
+        font-size: 2.7vw;
+    }
+
+    .price{
+        margin-left: 40px;
+    }
+
+    .price p{
+        font-size: 2.4vw;
+    }
+
+    .food-info p{
+        font-size: 1.8vw;
+    }
+
+    .nav_links li{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* Header */
+    .logo{
+        width: 30vw;
+    }
+
+    button{
+        font-size: 2.4vw;
+    }
+
+    /* Menu */
+    .food-info h3{
+        font-size: 3.0vw;
+    }
+
+    .price p{
+        font-size: 2.7vw;
+    }
+
+    .food-info p{
+        font-size: 2.0vw;
+    }
+
 }

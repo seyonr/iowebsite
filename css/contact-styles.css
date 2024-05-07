@@ -143,7 +143,155 @@ button:hover{
     font-size: 2vw;
     color: black;
 }
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* Reactive */
+@media screen and (max-width: 1100px){
+    /* Header */
+    .nav_links li{
+        font-size: 1.3vw;
+    }
 
+    .nav_links li a{
+        font-size: 1.3vw;
+    }
+
+    button{
+        font-size: 1.1vw;
+    }
+
+    /* Info Section */
+    .contact-map iframe{
+        width: 70vw;
+        margin-left: 20px;
+    }
+
+    .contact-info a{
+        font-size: 1.2vw;
+    }
+
+    .contact-info p{
+        font-size: 1.2vw;
+    }
+
+    .book-button h2 {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 780px){
+    /* Header */
+    .logo{
+        width: 13vw;
+    }
+
+    .nav_links li{
+        padding: 0px 10px;
+        font-size: 1.4vw;
+    }
+
+    button{
+        font-size: 1.4vw;
+    }
+
+    /* Contact Info */
+    .contact-items{
+        grid-template-columns: 1fr;
+    }   
+
+    .contact-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .contact-info a{
+        font-size: 1.7vw;
+    }
+
+    .contact-info p{
+        font-size: 1.7vw;
+    }
+
+    .contact-map iframe{
+        padding: 20px;
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .book-button h2 {
+        font-size: 3vw;
+    }
+
+    /* Footer */
+    .footer-icon-div{
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .footer-icon-div i{
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 650px){
+    /* Header */
+    .logo{
+        width: 22vw;
+    }
+
+    button{
+        font-size: 1.9vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* Header */
+    .logo{
+        width: 30vw;
+    }
+
+    button{
+        font-size: 2.4vw;
+    }
+
+    .nav_links li{
+        display: none;
+    }
+
+    /* Contact Section */
+    .contact-info a{
+        font-size: 3vw;
+    }
+
+    .contact-info p{
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .book-button h2 {
+        font-size: 4.5vw;
+    }
+
+    .contact-map iframe{
+        width: 80vw;
+        height: 100vw;
+    }
+
+
+    /* Footer */
+    .footer-icon-div{
+        letter-spacing: 0px;
+    }
+
+    .footer-icon-div i{
+        padding: 10px;
+        font-size: 7vw;
+    }
+}
 
 
 
