@@ -25,8 +25,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    /* position: fixed; */
-    /* width: 100vw; */
+    width: 100vw;
 }
 
 .nav_links{
@@ -76,11 +75,11 @@ button:hover{
 /* -------------------------------------- */
 /* Contact Section */
 .contact-section{
-    height: 100vh;
     padding: 30px 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .contact-items{
@@ -92,7 +91,6 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     color: white;
 }
 
@@ -263,6 +261,10 @@ button:hover{
     }
 
     /* Contact Section */
+    .contact-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
     .contact-info a{
         font-size: 3vw;
     }
@@ -273,7 +275,7 @@ button:hover{
     }
 
     .book-button h2 {
-        font-size: 4.5vw;
+        font-size: 4.3vw;
     }
 
     .contact-map iframe{
