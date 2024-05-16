@@ -87,7 +87,7 @@
     scroll-behavior: smooth;
     /* font-family: "Poppins", sans-serif; */
     font-family: 'Poppins';
-    background-color: black;
+    /* background-color: black; */
 }
 /* -------------------------------------- */
 /* -------------------------------------- */
@@ -217,10 +217,6 @@ button:hover{
     letter-spacing: 5px;
 }
 
-.warmup-page h2{
-    font-size: 1vw;
-}
-
 .menu-box-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -256,23 +252,11 @@ button:hover{
     padding: 30px 10%;
 }
 
-.fillers-page h2{
-    color: red;
-    font-size: 1vw;
-    letter-spacing: 5px;
-}
-
 /* Pasta Page */
 .pasta-page{
     background-color: black;
     color: white;
     padding: 30px 10%;
-}
-
-.pasta-page h2{
-    color: red;
-    font-size: 1vw;
-    letter-spacing: 5px;
 }
 
 /* Shrimp */
@@ -282,14 +266,97 @@ button:hover{
     padding: 30px 10%;
 }
 
-.shrimp-page h2{
-    color: red;
-    font-size: 1vw;
-    letter-spacing: 5px;
-}
-
 /* Refershers */
 .refer-page{
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+}
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* Alchol Tab */
+/* Wine */
+.wine-page{
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+}
+
+.small-title{
+    font-size: 1vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.small-line{
+    font-size: 1vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wine-page > .menu-box-1:first-of-type  {
+    margin-bottom: 30px;
+}
+
+/* Been */
+.beer-page{
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+}
+
+.beer-page > .menu-box-1:first-of-type  {
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+}
+
+/* Vodka */
+.vodka-page{
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+    /* padding-right: 300px; */
+}
+
+.alc-heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center; 
+}
+
+.alc-h2{
+    color: red;
+    letter-spacing: 5px;
+    font-size: 1vw;
+}
+
+.alc-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 15px;
+}
+
+.alc-info p{
+    font-size: 0.9vw;
+    text-align: center; 
+}
+
+/* Gin */
+.gin-page{
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+}
+
+/* Tequilla */
+.teq-page{
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+}
+
+/* Whiskey */
+.whi-page{
     background-color: black;
     color: white;
     padding: 30px 10%;
@@ -324,12 +391,16 @@ button:hover{
     }
 
     /* Menu */
-    .price{
-        margin-left: 20px;
+    .h2-red{
+        font-size: 1.7vw;
     }
 
-    .warmup-page h2{
-        font-size: 1.3vw;
+    .alc-h2{
+        font-size: 1.5vw;
+    }
+
+    .price{
+        margin-left: 20px;
     }
 
     .food-info p{
@@ -338,6 +409,18 @@ button:hover{
 
     .price p{
         font-size: 1.3vw;
+    }
+
+    .alc-info p{
+        font-size: 1.3vw;
+    }
+
+    .small-title{
+        font-size: 1.7vw;
+    }
+
+    .small-line{
+        font-size: 1.7vw;
     }
 }
 
@@ -372,23 +455,7 @@ button:hover{
         margin-left: 50px;
     }
 
-    .warmup-page h2{
-        font-size: 1.7vw;
-    }
-
-    .fillers-page h2{
-        font-size: 1.9vw;
-    }
-
-    .pasta-page h2{
-        font-size: 1.9vw;
-    }
-
-    .shrimp-page h2{
-        font-size: 1.9vw;
-    }
-
-    .refer-page h2{
+    .h2-red{
         font-size: 1.9vw;
     }
 
@@ -398,6 +465,18 @@ button:hover{
 
     .price p{
         font-size: 1.3vw;
+    }
+
+    .alc-info p{
+        font-size: 1.3vw;
+    }
+
+    .small-title{
+        font-size: 2.2vw;
+    }
+
+    .small-line{
+        font-size: 2.2vw;
     }
 }
 
@@ -442,6 +521,30 @@ button:hover{
         font-size: 4.5vw;
     }
 
+    .wine-page h1{
+        font-size: 4.5vw;
+    }
+
+    .beer-page h1{
+        font-size: 4.5vw;
+    }
+
+    .vodka-page h1{
+        font-size: 4.5vw;
+    }
+
+    .gin-page h1{
+        font-size: 4.5vw;
+    }
+
+    .teq-page h1{
+        font-size: 4.5vw;
+    }
+
+    .whi-page h1{
+        font-size: 4.5vw;
+    }
+
     .food-info h3{
         font-size: 2.7vw;
     }
@@ -454,12 +557,24 @@ button:hover{
         font-size: 2.4vw;
     }
 
+    .alc-info p{
+        font-size: 2.4vw;
+    }
+
     .food-info p{
         font-size: 1.8vw;
     }
 
     .nav_links li{
         display: none;
+    }
+
+    .h2-red{
+        font-size: 2.5vw;
+    }
+
+    .alc-h2{
+        font-size: 2.2vw;
     }
 }
 
@@ -486,4 +601,31 @@ button:hover{
         font-size: 2.0vw;
     }
 
+    .alc-h2{
+        font-size: 1vw;
+    }
+    
+    .alc-info h3{
+        font-size: 3.0vw;
+    }
+
+    .alc-info p{
+        font-size: 2.5vw;
+    }
+
+    .h2-red{
+        font-size: 2.7vw;
+    }
+
+    .alc-h2{
+        font-size: 2.4vw;
+    }
+
+    .small-title{
+        font-size: 2.5vw;
+    }
+
+    .small-line{
+        font-size: 2.5vw;
+    }
 }
