@@ -294,6 +294,12 @@ button:hover{
     padding-right: 10px;
 }
 
+.alc-small{
+    font-size: 0.6vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .wine-page > .menu-box-1:first-of-type  {
     margin-bottom: 30px;
 }
@@ -422,6 +428,10 @@ button:hover{
     .small-line{
         font-size: 1.7vw;
     }
+
+    .alc-small{
+        font-size: 0.6vw;
+    }
 }
 
 @media screen and (max-width: 780px){
@@ -477,6 +487,10 @@ button:hover{
 
     .small-line{
         font-size: 2.2vw;
+    }
+
+    .alc-small{
+        font-size: 1.7vw;
     }
 }
 
@@ -627,5 +641,9 @@ button:hover{
 
     .small-line{
         font-size: 2.5vw;
+    }
+
+    .alc-small{
+        font-size: 1.4vw;
     }
 }
